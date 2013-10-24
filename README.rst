@@ -4,6 +4,12 @@ servermon
 Servermon is a Django project with the aim of facilitating server monitoring
 and management through Puppet.
 
+Compatibility
+=============
+
+As of October 2013, we mosty support Django 1.4. Django 1.5 or later is NOT
+supported.
+
 Install
 =======
 
@@ -27,6 +33,8 @@ Run!
 .. code-block:: bash
 
     ./manage.py runserver
+
+More details in the `installation tutorial <https://servermon.readthedocs.org/en/latest/install.html>`_.
 
 Documentation
 =============
